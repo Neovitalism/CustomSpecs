@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "customspecs",
+  "version": "${version}",
+
+  "name": "CustomSpecs",
+  "description": "A mod made to add custom spec groupings to Cobblemon.",
+  "authors": [
+    "Neovitalism"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/fQXCccxMrD"
+  },
+
+  "license": "MIT",
+  "__icon": "assets/customspecs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.neovitalism.customspecs.CustomSpecs"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "neoapi": ">=${neo_api_version}",
+    "cobblemon": ">=1.6.0"
+  },
+
+  "suggests": {
+    "luckperms": ">=5.4.139"
+  }
+}
